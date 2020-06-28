@@ -1,0 +1,29 @@
+Welcome Question
+
+All the colleges are shutdown due to the deadly corona virus.
+
+Even though it's pandemic VITE want to conduct their final year exams for the students from July. But they also want to ensure the safety of their students.So they approached Dr.X to solve this problem. So Dr.X found out an unique way of identifying students who are affected with covid-19.
+
+He performed an experiment and found that "The students whose roll number's least significant bit is set" are affected(For detailed explanation, refer to sample test case below)
+
+So the staff want to identify such students who are affected with corona. As you are intelligent they came to seek your help. So what are you waiting for ? Code and help them.
+
+Input Format
+
+first line contains single integer n
+next line contains n spaced separated integers (a1,a2,a3,a4,...an)
+Constraints
+
+0< n < 100000
+0<= ai <=1000000
+Output Format
+
+print the count of the numbers whose least significant bit is set.
+
+Sample Input 0
+
+4
+2 3 5 8 
+Sample Output 0
+
+2
