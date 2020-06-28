@@ -1,0 +1,53 @@
+Karthik is such a lazy boy and only thing he is doing in this lockdown is eating ,sleeping and watching movies all the day. He realized that he still bored of sleeping ,eating and watching movies. So he decided to something interesting.He invented a mini Robot which can only move in four directions.Now with this robot he wanted to get rid of boredom by doing some task.
+
+There is a rectangular grid of cells consisting of n rows and m columns. He will place a robot on one of the grid cells and provide it with a command string s, consisting of characters ‘L’, ‘R’, ‘U’, ‘D’. After being placed, the robot will follow the instructions of the command string, where 'L' corresponds moving to the left, 'R' towards the right, 'U' for moving up, and 'D' means down.
+
+He already selected the command string s, and is wondering if it is possible to place the robot in one of the grid cells initially and have it always stay entirely within the grid upon execution of the command string s. Output “safe” if there is a starting cell for which the robot doesn’t fall off the grid on following command s, otherwise, output "unsafe".
+
+Input Format
+
+The first line of input will contain an integer T, the number of test cases.
+
+Each test case will be on two lines.
+
+The first line will have two space separated integers n,m.
+
+The second line will have the command string s.
+
+Constraints
+
+1<=T<=1000
+
+1<=m,n<=10
+
+1<=|S|<=10
+
+Output Format
+
+For each test case, output "safe" (without quotes) or "unsafe" (without quotes) in a new line.
+
+Sample Input 0
+
+5
+1 1
+R
+2 3
+LLRU
+3 2
+LLRU
+4 3
+ULURUDRDLD
+3 6
+RURUR
+Sample Output 0
+
+unsafe
+safe
+unsafe
+safe
+safe
+Explanation 0
+
+For the first case, there is only one grid square, so we must place our robot there. When the robot follows the command, it'll fall off, so it is unsafe.
+
+For the second case, we can place the robot on the bottom right (2,3) grid square.
