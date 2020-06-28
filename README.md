@@ -1,2 +1,2 @@
 # Competitive-Programming
-Compilation of the problems and their accepted solutions from Hackerrank solved by me.
+Compilation of the problems and their accepted solutions from Hackerrank (submitted by me).
